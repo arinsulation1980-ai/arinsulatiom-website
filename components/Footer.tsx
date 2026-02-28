@@ -9,9 +9,7 @@ const Footer: React.FC = () => {
 
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center group mb-6">
-              <span className="text-2xl font-black tracking-tighter uppercase text-white">
-                ARINSULATIONS<span className="inline-block w-3 h-3 bg-[#ff264d] rounded-[3px] ml-1 mb-0.5 align-baseline transition-transform group-hover:scale-110"></span>
-              </span>
+              <img src="/logo_white.png" alt="ARINSULATIONS Logo" className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-md" />
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Advanced industrial insulation solutions for a more efficient and sustainable future.

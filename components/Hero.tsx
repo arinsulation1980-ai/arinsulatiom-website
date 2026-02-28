@@ -32,17 +32,11 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center md:justify-start">
             <a
               href="#contact"
-              className="group relative flex items-center justify-center gap-3 px-8 py-4 bg-[#ff264d] hover:bg-rose-600 text-white font-bold rounded-sm overflow-hidden transition-all shadow-[0_0_20px_rgba(255,38,77,0.4)] hover:shadow-[0_0_40px_rgba(255,38,77,0.6)] hover:-translate-y-1"
+              className="group relative flex items-center justify-center gap-3 px-8 py-4 bg-[#ff264d] hover:bg-rose-600 text-white font-bold rounded-sm overflow-hidden transition-all shadow-[0_0_20px_rgba(255,38,77,0.4)] hover:shadow-[0_0_40px_rgba(255,38,77,0.6)] hover:-translate-y-1 w-full sm:w-auto text-center"
             >
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
               <span className="relative z-10 tracking-wide uppercase text-sm">Request Consultation</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform relative z-10" />
-            </a>
-            <a
-              href="#projects"
-              className="flex items-center justify-center gap-3 px-8 py-4 border border-slate-600/50 hover:border-white/50 bg-slate-900/40 hover:bg-slate-800/80 text-white font-bold rounded-sm backdrop-blur-md transition-all hover:-translate-y-1 tracking-wide uppercase text-sm"
-            >
-              View Portfolio
             </a>
           </div>
         </div>

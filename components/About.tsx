@@ -18,14 +18,14 @@ const About: React.FC = () => {
 
             <div className="relative transform transition-transform duration-700 hover:rotate-y-[5deg] hover:rotate-x-[5deg] preserve-3d shadow-2xl rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
-                alt="Engineering Team"
+                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2670&auto=format&fit=crop"
+                alt="Industrial Insulation"
                 className="w-full h-[550px] object-cover scale-100 group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-60"></div>
               <div className="absolute bottom-8 left-8 text-white">
-                <p className="font-bold text-lg">World-Class Facility</p>
-                <p className="text-orange-300 text-sm">Detroit, MI</p>
+                <p className="font-bold text-lg">Premium Insulation</p>
+                <p className="text-orange-300 text-sm">Expertly Installed Solutions</p>
               </div>
             </div>
           </div>

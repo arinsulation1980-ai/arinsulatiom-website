@@ -26,9 +26,7 @@ const Navbar: React.FC = () => {
 
         {/* Logo */}
         <a href="#" className="flex items-center group">
-          <span className={`text-xl sm:text-2xl font-black tracking-tighter uppercase ${isScrolled ? 'text-white' : 'text-white'}`}>
-            ARINSULATIONS<span className="inline-block w-2.5 h-2.5 sm:w-3 sm:h-3 bg-[#ff264d] rounded-[3px] ml-1 mb-0.5 align-baseline transition-transform group-hover:scale-110"></span>
-          </span>
+          <img src="/logo_white.png" alt="ARINSULATIONS Logo" className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-lg" />
         </a>
 
         {/* Desktop Menu */}

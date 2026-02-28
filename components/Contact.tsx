@@ -50,8 +50,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold mb-1">Headquarters</h3>
-                  <p className="text-slate-400">4500 Industrial Pkwy</p>
-                  <p className="text-slate-400">Detroit, MI 48201</p>
+                  <p className="text-slate-400 leading-relaxed text-sm">274W2/OLD NO:205 MEALNILAIPALLI THERU,<br />KAMATCHIPURAM, UTHAMAPALAYAM TALUK,<br />THENI - 625520. TAMILNADU, INDIA.</p>
                 </div>
               </div>
             </div>
@@ -63,7 +62,7 @@ const Contact: React.FC = () => {
 
             <h3 className="text-2xl font-bold text-white mb-6">Send us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-400 mb-2 uppercase tracking-wide">Full Name</label>
                   <input
@@ -71,6 +70,7 @@ const Contact: React.FC = () => {
                     id="name"
                     required
                     placeholder=""
+                    className="w-full px-4 py-3 rounded-sm border border-slate-700 bg-slate-800/50 text-white focus:border-orange-500 focus:ring-1 focus:ring-orange-500 outline-none transition-all"
                     value={formState.name}
                     onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                   />
@@ -82,6 +82,7 @@ const Contact: React.FC = () => {
                     id="email"
                     required
                     placeholder=""
+                    className="w-full px-4 py-3 rounded-sm border border-slate-700 bg-slate-800/50 text-white focus:border-orange-500 focus:ring-1 focus:ring-orange-500 outline-none transition-all"
                     value={formState.email}
                     onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                   />
